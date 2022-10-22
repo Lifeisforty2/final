@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="700.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Label layoutX="249.0" layoutY="14.0" text="Insurance Provider" />
+      <Label fx:id="insurnaceinfo" layoutX="351.0" layoutY="105.0" prefHeight="363.0" prefWidth="218.0" />
+      <VBox layoutX="14.0" layoutY="87.0" prefHeight="263.0" prefWidth="144.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#provider" text="Insurance Provider" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
